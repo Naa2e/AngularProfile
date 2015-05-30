@@ -1,21 +1,21 @@
 var controllers = angular.module('profileapp.controllers', []);
 
 controllers.controller('IndexController', ['$scope', function($scope){
-  $scope.message = 'Hello I am the HOME PAGE';
+  $scope.message = 'Home Page';
 }]);
 
 
 controllers.controller('DeveloperController', ['$scope', function($scope){
-  $scope.message = 'Hello I am the ABOUT PAGE';
+  $scope.message = 'Developer Page';
 }]);
 
 
 controllers.controller('DesignerController', ['$scope', function($scope){
-  $scope.message = 'Hello I am the NEEDS PAGE';
+  $scope.message = 'Designer Page';
   $scope.needs=[];
 }]);
 
 controllers.controller('DancerController', ['$scope', function($scope){
-  $scope.message = 'Hello I am the NEEDS PAGE';
+  $scope.message = 'Dancer Page';
   $scope.needs=[];
 }]);
