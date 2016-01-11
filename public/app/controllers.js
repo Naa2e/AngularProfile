@@ -2,11 +2,13 @@ var controllers = angular.module('profileapp.controllers', []);
 
 controllers.controller('IndexController', ['$scope', function($scope){
   $scope.message = 'Home Page';
+  $scope.needs=[];
 }]);
 
 
 controllers.controller('DeveloperController', ['$scope', function($scope){
   $scope.message = 'Developer Page';
+  $scope.needs=[];
 }]);
 
 

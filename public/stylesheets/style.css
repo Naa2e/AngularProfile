@@ -37,7 +37,7 @@ nav a:visited {
 }
 /*Hover can only come after visited.*/
 
-h1 a:hover {
+h1:hover {
     color: #000;
     text-shadow: -1px 0 black, 0 1px grey, 1px 0 white, 0 -1px grey;
 }
@@ -53,6 +53,7 @@ section {
 footer {
     font-family: 'Architects Daughter';
     text-align: center;
+    list-style: none;
 }
 
 footer div {

@@ -3,6 +3,6 @@
 
   angular.module('profileapp', [])
   .controller('MainController', ['$scope', function($scope){
-    $scope.name="Nicole";
+    $scope.name="Nicole A";
   }]);
 })();
